@@ -20,6 +20,7 @@ function guessFunction(){
     if (guess == number){           //which number is bigger, guess or number
         alert('Correct!' + 'That was a total of ' + guessCount + ' guesses.');  
         correctGuess = true;
+        return correctGuess;
     } 
     else if (guessInt > number) {
         diff = guessInt - number;
@@ -45,3 +46,4 @@ function guessFunction(){
     }
 
 }
+    
